@@ -1,0 +1,27 @@
+THIS IS A TITLE
+THIS IS A TITLE
+THIS IS NEW TEXT
+THIS IS NEW TEXT
+THIS IS A TITLE
+THIS IS A NEW DASHBOARD FONT
+    <preference name='ui.encoding.shelf.height' value='250' />
+<preference name='ui.shelf.height' value='280' />
+    </preferences>
+<!--This is everything you need to know about datasources    -->
+  <datasources>
+the dog barked
+    <datasource hasconnection='false' inline='true' name='Parameters' version='9.0'>
+      <aliases enabled='yes' />
+<!--This is the description of the Parameter: integer, Name, type        -->
+      <column caption='Top Customers' datatype='integer' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='5'>
+THIS IS NEW TEXT
+<range granularity='5' max='Poppins' min='5' /> <!--This is the range details of this Parameter-->
+      </column>
+we
+        <calculation class='tableau' formula='200' />
+        <range granularity='50' max='200' min='50' />
+      </column>
+    </datasource>
+    <datasource inline='true' name='Sample - Superstore' version='9.0'>
+<!--This is the Superstore Connection.  It includes what type of connection, filename = location of file (connection string)-->       
+      <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/chris.toomey/Documents/My Tableau Repository/Datasources/9.0/en_US-US/Sample - Superstore.xls' validate='no'>
